@@ -1,0 +1,34 @@
+JAVA FULL STACK DEVELOPMENT:
+oak is a first name
+oak is a satellite project used for the registration process
+WORA- write once run any where
+1991- Green project: james gosling and a small team at sun microsystem explore software for consumer devices
+1991-Named "Oak":the new language is named after an oak tree outside gosling office
+1992-star7 demo: A handheld prototype(7)shows oak code running on custom hardware
+1995-Renamed java:"Oak" is already trade marked, java is publicly announced May 1995
+1996-JDK1.0: first official release ( january 1996) - java goes main stream
+
+***THE PROBLEM: devices used different chips and operating systems A C/C++ program had to be recompiled - often rewritten -- for each one
+JAVA 1.0 - JVM core libraries ,applets,"write once run any where 
+JAVA 5- Generics ,annotations, enums,enhanced for loop
+Java 8 - It is standard version and Java 8 (2014) march  Lambda expressions,Stream API,New Date and Time API,Functional programming support.
+Java 11 (2018)-Improved performance,New HTTP Client API,String methods and other library improvements,Simplified execution of Java programs.
+Java 17 (2021)-Records,Sealed classes,Pattern matching improvements,Better performance and security.
+Java 21 (2023)-Virtual threads,Pattern matching.
+
+Datatypes: 
+  Numerical_datatypes - Int,float,short,double,long,byte.
+  String_datatypes - char,string.
+  Boolean_datatype - boolean.
+
+Definition: Variable declaration is the process of specifying a variable's data type and name to create a variable in Java
+a varibale is named memory location used to store data.
+
+
+  
+  
+  
+  
+  
+
+  
