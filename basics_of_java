@@ -24,6 +24,40 @@ Datatypes:
 Definition: Variable declaration is the process of specifying a variable's data type and name to create a variable in Java
 a varibale is named memory location used to store data.
 
+METHOD EXPLAINATION
+Scanner method              Example                      Return type
+nextInt()                    25                            int
+nextLong()                   9876543210L                   long
+nextFloat()                  85.5F                         float
+nextDouble()                 25000.75                      double
+next()                       venu                          String
+nextLine()                   hello java                    String
+next().chartAt(0)             A                             char
+nextBoolean()                 true                          boolean
+
+
+program1:
+class venu{
+pubilc static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+int age;
+long salary;
+float average;
+double total;
+String employee_name;
+System.out.println("====================");
+age=sc.nextInt();
+salary=sc.nextLong();
+average=sc.nextFloat();
+total=sc.nextDouble();
+employee_name=sc.next();
+System.out.println(age);
+System.out.println(salary);
+System.out.println(average);
+System.out.println((total);
+System.out.println(employee_name);
+}
+}
 
   
   
