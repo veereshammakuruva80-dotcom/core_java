@@ -1,0 +1,11 @@
+CONTROL STATTEMENTS:
+control statement is divided into three types
+  1. conditional 
+  2. looping
+  3. Jumping
+CONDITIONAL STATEMET:
+->if,ifelse,elseif,nestedif,switch.
+LOOPING:
+->for,while,do while.
+JUMPING:
+->continue,break,return.
