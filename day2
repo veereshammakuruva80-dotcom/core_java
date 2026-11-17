@@ -107,7 +107,15 @@ caseN:
     //break;
 default:
     //statement;
-    
+
+
+LOOPING:
+
+1.FOR LOOP SYNTAX:
+  for(int i=0;i<=10;i++){
+          //block of code;
+   }
+
 
 
 
