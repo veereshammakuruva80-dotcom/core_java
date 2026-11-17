@@ -9,3 +9,16 @@ LOOPING:
 ->for,while,do while.
 JUMPING:
 ->continue,break,return.
+
+IF SYNTAX:
+if condition{
+      //block of code
+}
+
+IFELESE SYNTAX:
+if condition{
+      //block of code
+}
+else{
+    //block of code
+}
