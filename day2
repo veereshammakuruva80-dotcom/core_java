@@ -80,13 +80,34 @@ else{
     //block of code
 }
 
+
 4.NESTEDIF SYNTAX:
 if condition1{
         if condition2{
                    //block of code statemet2
                   }
              //block of code statement1
+}
 
+
+5.SWITCH CASE SYNTAX:
+switch(condition){
+case1:
+     //statement1;
+     //break;
+case2:
+    //statement2;
+    //break;
+case3:
+    //statement3;
+    //break;
+........
+caseN: 
+    //statementN;
+    //break;
+default:
+    //statement;
+    
 
 
 
