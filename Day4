@@ -1,0 +1,73 @@
+STRING:
+ string is a collection of character within double quotations or single quotations.
+
+METHODS:
+INSPECT:
+length()->Returns string length	                  str.length() → 10
+charAt()->Returns character at index	            str.charAt(0) → H
+toUpperCase()->Converts to uppercase	            str.toUpperCase()
+toLowerCase()->Converts to lowercase	            str.toLowerCase()
+substring()->Extracts part of a string	          str.substring(0,5)
+indexOf()->Finds first index	                    str.indexOf('J')
+lastIndexOf()->Finds last occurrence	            str.lastIndexOf('a')
+replace()->Replaces characters/text	               str.replace("Java","Python")
+isEmpty()->Checks whether string is empty           "".isEmpty()
+
+
+COMPARE:
+equals()->Compares two strings	                    str.equals(str2)
+equalsIgnoreCase()->Compares ignoring case	        "JAVA".equalsIgnoreCase("java")
+toCharArray()->Converts string into character array	   str.toCharArray()
+compareTo()->compare to the strings                    str.compareT()
+
+
+
+FIND:
+str="veeru@gmail.com";
+contains()->Checks whether text exists	          str.contains("Java")
+startsWith()->Checks starting text	               str.startsWith("Hello")
+endsWith()->Checks ending text	                    str.endsWith("Java")
+
+TRANFORM:
+trim()->Removes leading/trailing spaces            	" Hello ".trim()
+strip()	Removes leading and trailing whitespace      str.strip()
+concat()->Joins two strings	                        str.concat(" World")
+repeat()	Repeats a string (Java 11+)                str.repeat(3)
+
+REPLACE:
+replace()->Replaces characters/text	                str.replace("Java","Python")
+replaceFirst()	Replaces first regex match          str.replaceFirst('v',E')
+replaceAll()	Replaces all regex matches            str.replaceAll("veereshamma","veeru")
+
+SPLIT :
+split()->Divides string into parts	                 "A,B,C".split(",")
+
+JOIN:
+join()->taking one string another to join            str.join("|",str1);
+the two strings                        
+
+TWO CHAR ARRAY:
+tocharArray()->The toCharArray() method converts a     char[] arr = str.toCharArray();
+String into a character array 
+
+VALUTEOF:
+valueof()->The valueOf() method converts different       String str = String.valueOf(value);
+data types (such as int, double, char, boolean)
+into a String.
+
+
+MATCHES AND FORMATS:
+matches()->The matches() method checks whether a        string.matches("regex");
+string matches a given Regular Expression (Regex) 
+pattern.
+format()->The format() method is used to create a       String str = String.format("format", values);
+formatted string by inserting values into 
+placeholders
+formatted()->.The formatted() method is used to        String result = "format".formatted(values); 
+format a string using the current string itself
+as the format pattern.
+
+
+STRING BUILDER:
+
+
