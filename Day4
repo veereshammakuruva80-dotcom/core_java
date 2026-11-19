@@ -67,6 +67,9 @@ formatted()->.The formatted() method is used to        String result = "format".
 format a string using the current string itself
 as the format pattern.
 
+STRING BUILDER:
+
+
 
 STRING BUILDER:
 
