@@ -71,6 +71,123 @@ STRING BUILDER:
 
 
 
-STRING BUILDER:
 
 
+
+OOPS(OBJECT OREINTED PROGRAMMING LANGUAGE):
+TYPES OF CLASSES:
+->concrete class:
+->Abstract class:         
+->Final class
+->Static Nested class
+->Inner class 
+->local class
+->Anomoyons class
+->Enum class
+->Interface
+
+Types of Constructors in Java:
+A constructor in Java is a special member of a class used to initialize objects.
+- Constructor name must be the same as the class name.
+- It does not have a return type.
+- It is automatically called when an object is created.
+1. Default Constructor:
+      A constructor automatically provided by the Java compiler when we do not write any constructor in the class.
+   ex:
+     class Student {
+    int id;
+
+    void display() {
+        System.out.println(id);
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.display();
+    }
+}
+2. No-Argument Constructor:
+   A constructor explicitly written by the programmer without parameters.
+    ex:class Student {
+    Student() {
+        System.out.println("No Argument Constructor");
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student();
+    }
+}
+3. Parameterized Constructor:
+    A constructor that accepts parameters to initialize object values.
+    ex:
+  class Student {
+    int id;
+    String name;
+
+    Student(int a, String b) {
+        id = a;
+        name = b;
+    }
+
+    void display() {
+        System.out.println(id);
+        System.out.println(name);
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student(101, "Veeru");
+        s.display();
+    }
+}
+
+Access Modifiers in Java:
+   Access Modifiers are keywords in Java that define the accessibility (visibility) of classes, variables, methods and constructors.
+1. public:
+-->Accessible from anywhere.
+-->Can be accessed within the same class, same package and different packages.
+ ex: 
+   class Student {
+    public int id = 101;
+
+    public void display() {
+        System.out.println(id);
+    }
+}
+2. private:
+-->Accessible only within the same class.
+-->Cannot be accessed directly outside the class.
+ex:
+   class Student {
+    private int id = 101;
+
+    public void display() {
+        System.out.println(id);
+    }
+}
+3. protected:
+--> Accessible within the same package.
+--> Also accessible in subclasses of different packages through inheritance.
+ex :
+class Student {
+    protected int id = 101;
+}
+4. default (no modifier):
+--> When we don't specify any access modifier, it is called default access.
+--> Accessible only within the same package.
+ex:
+class Student {
+    int id = 101;
+
+    void display() {
+        System.out.println(id);
+    }
+}
+
+
+Static and not static:
+ class venu{
+   static int vamshi(int a,int b){
+         return a*b;
+
+
+   
