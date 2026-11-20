@@ -1,0 +1,131 @@
+OPPS CONCEPTS:
+1. Encapsulation:
+Encapsulation means wrapping data (variables) and methods into a single unit (class).
+- Use private variables.
+- Access them using getters and setters.
+- Provides data protection.
+Real-time example: ATM machine. You cannot directly access the bank's internal data.
+
+ex:class Bank {
+    private int balance = 5000;
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public void setBalance(int amount) {
+        balance = amount;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Bank b = new Bank();
+        System.out.println(b.getBalance());
+    }
+}
+
+2. Inheritance:
+Inheritance means one class acquiring the properties and methods of another class.
+- Parent class (Superclass)
+- Child class (Subclass)
+- Uses extends keyword.
+Real-time example: A child inherits certain characteristics from parents.
+
+ex:class Animal {
+    void eat() {
+        System.out.println("Animal is eating");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog is barking");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();
+        d.bark();
+    }
+}
+
+
+3.Polymorphism:
+Polymorphism means one name having many forms.
+There are two types:
+A. Compile-time Polymorphism (Method Overloading)
+name method name but different parameters.
+
+ex:class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public static void main(String[] args) {
+        Calculator c = new Calculator();
+
+        System.out.println(c.add(10, 20));
+     System.out.println(c.add(10, 20, 30));
+    }
+}
+
+B. Runtime Polymorphism (Method Overriding)
+
+A child class provides its own implementation of a parent class method.
+
+
+ex:class Animal {
+    void sound() {
+        System.out.println("Animal makes sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog();
+        a.sound();
+    }
+}
+
+
+4. Abstraction:
+Abstraction means hiding implementation details and showing only essential information.
+
+There are two ways to achieve abstraction in Java:
+- Abstract class
+- Interface
+Real-time example: When you drive a car, you use the steering wheel and brakes without knowing the complete internal mechanism.
+
+Abstract class example
+
+ex:abstract class Vehicle {
+    abstract void start();
+}
+
+class Car extends Vehicle {
+    void start() {
+        System.out.println("Car starts with a key");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Car c = new Car();
+        c.start();
+    }
+}
+
+
